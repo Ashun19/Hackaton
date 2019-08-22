@@ -1,0 +1,86 @@
+/* Basic Reset*/
+/* https://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+div, form{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 400px;
+    width: 500px;
+
+    margin: auto;
+	padding: 0;
+	border: 4px #000;
+	border-radius: 50px 50px 50px 50px;
+	outline: 0;
+	font-size: 16px;
+	vertical-align: baseline;
+	background: #fff;
+
+}
+
+body {
+	line-height: 1;
+	width: 500px;
+	background: url(back_img.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+#p1{
+	font-size: 30px;
+	font-family: Arial;
+	color: white;
+}
+
+#p2{
+	font-size: 20px;
+	font-family: Arial;
+	color: white;
+}
+
+
+form {
+	background-color: #669999;
+	text-align: center;
+	padding: 7px;
+
+	
+}
+
+#display {
+	margin-top: 30px;
+	margin-bottom: 40px;
+	width: 90%;
+	height: 30px;
+	text-align: right;
+	font-size: 1.5rem;
+	background-color: black;
+	color: #fff;
+}
+.digit {
+	font-size: 2rem;
+	background-color: #fff;
+	height: 55px;
+	width: 20%;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px;
+}
+.oper {
+	font-size: 2rem;
+	background-color: teal;
+	height: 55px;
+	width: 20%;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 5px;
+}
+#clearMem {
+	background-color: green;
+}
+#equal {
+	background-color: yellow;
+}

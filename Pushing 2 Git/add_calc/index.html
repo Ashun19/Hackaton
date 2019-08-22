@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator Project</title>
+		 <link rel="stylesheet" href="index.css" title="index.css" type="text/css" media="screen" >
+        <script src="index.js" type="text/javascript">
+        </script>
+</head>
+
+<body onload="pop_up()">
+	<header>
+		<p id="p1">All which is beautiful and noble is the result of reason and calculation.</p>
+		<p id="p2">'Charles Baudelaire'</p>
+	</header>		
+	
+<form name="case">
+
+   <!-- The name attribute specifies the name of an <input> element.
+The name attribute is used to reference elements in a JavaScript, or to reference form data after a form is submitted.
+Note: Only form elements with a name attribute will have their values passed when submitting a form.
+ -->
+  <input name="display" id="display" value=""> <!-- this is display area -->
+
+    <input type="button" class="digit" value="one" onclick="run1()"> <!-- value is for what appears on button -->
+    <input type="button" class="digit" value="two" onclick="run2()">
+    <input type="button" class="digit" value="three" onclick="run3()">
+    <input type="button" id="plus" 	class="oper" 	value="+"  onclick="runPlus()">
+
+    <input type="button" class="digit" value="four" onclick="run4()">
+    <input type="button" class="digit" value="five" onclick="run5()">
+    <input type="button" class="digit" value="six" onclick="run6()">
+    <input type="button" id="minus" 	class="oper" 	value="-" onclick="runMinus()" >
+
+    <input type="button" class="digit" value="seven" onclick="run7()">
+    <input type="button" class="digit" value="eight" onclick="run8()">
+    <input type="button" class="digit" value="nine" onclick="run9()">
+    <input type="button" id="divide" 	class="oper" 	value="/" onclick="runDivide()" >
+    
+    <input type="button" class="digit" value="zero" onclick="run0()">
+    <input type="button" id="clearMem" class="oper" value="C" onclick="runC()">
+    
+ 
+	<input type="button" id="equal" 	class="oper"	value="=" onclick="runEquals()">
+    <input type="button" id="multiply" 	class="oper" 	value="*" onclick="runMultiply()">
+
+  </div> <!--  END opercase --> 
+      
+  
+  
+  
+</div><!-- END of case  -->
+
+<!--   -->
+</body>
+

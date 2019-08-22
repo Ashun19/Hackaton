@@ -1,0 +1,28 @@
+body{
+	background-color: #663;
+	color: #1a1a1a;
+}
+
+header{
+	background-color: #990;
+	color: #55552b;
+	padding: 10px;
+}
+
+nav{
+	text-align: right; 
+}
+
+li{
+	display: inline;
+	padding: 10px;
+}
+
+a{
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #d9d9d9;
+}
