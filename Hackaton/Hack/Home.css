@@ -1,0 +1,52 @@
+body{
+	background-color: #ccc;
+	font-family: Garamond;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	background: url(../back_img.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+
+
+#main_header{
+	background-color: #fff;
+	margin: 0;
+	padding: 30px;
+	position: relative;
+}
+
+#right_aside{
+	width: 250px;
+	background-color: #333;
+	margin-top: 0;
+}
+
+.button{
+	padding: 20px;
+	background-color: teal;
+	font-family: cursive;
+	color: #fff;
+	border-radius: 50px;
+	width: 200px;
+	height: 90px;
+	margin: 15px;
+	border: 2px solid #7db395;
+}
+
+.button p{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+}
+
+.button a{
+	font-size: 20px;
+	color: #333;
+	text-decoration: none;
+}
+
+.button:hover, #active{
+	background-color: #fff;
+	color: teal;
+}
